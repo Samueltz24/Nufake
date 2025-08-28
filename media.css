@@ -16,13 +16,29 @@
         flex: 60%;
         flex-wrap: wrap;
     }
-    .tamanho{
-        width: 700px;
+    .tamanho1{
+        height: 500px;
+        width: 100%
     }
     .espa{
-        margin-left: 50px;
+        /*margin-left: 50px;
         border: 1px solid #893be1;
         background: #893be1;
-        border-radius: 0 10px;
+        border-radius: 0 10px;*/
+        margin: auto auto;
     }
+    .borda{
+        width: 1000px;
+        height: 700px;
+    }
+    .ta1{
+        width: 100%;
+        right: 200px;
+    }
+    .testez{
+        margin-bottom: 10px;
+        padding: 0;
+        height: 600px;
+    }
+        
 }
