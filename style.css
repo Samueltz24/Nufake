@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Tektur:wght@400..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Delius&family=Tektur:wght@400..900&display=swap');
+
+:root{
+  --fonte01: "Delius", cursive;
+  --fonte02: "Tektur", sans-seri;
+}
+
+
+
 *{
   margin: 0;
   padding: 0;
 }
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;
+  font-family: "Tektur", sans-serif;*/
+  font-family: var(--fonte01)
 }
 nav{
   position: fixed;
@@ -110,6 +124,7 @@ input{
 .roxo{
   color: #390870;
   font-size: 30px;
+  font-family: var(--fonte02);
 }
 .tamanho{
   max-width: 100%;
@@ -205,3 +220,14 @@ a{
   flex: 100%;
   margin-top: 15px;
 }
+.imagem01{
+  width: 100%;
+}
+.apa{
+  display: none;
+}
+.apaga{
+  display: block;
+}
+
+
