@@ -13,8 +13,11 @@
         margin-left: 50%;
     }
     .espaco{
-        flex: 60%;
+        flex: 20%;
         flex-wrap: wrap;
+    }
+    .espaco01{
+        padding-top: 60px;
     }
     .tamanho1{
         height: 500px;
@@ -40,5 +43,56 @@
         padding: 0;
         height: 600px;
     }
-        
+    .apaga{
+        display: none;
+    }
+    .apa{
+        display: block;
+    }
+    .card01{
+        margin: 0 5%;
+        display: flex;
+    }
+    .filho01{
+        margin-left: 1%;
+    }
+    .direita{
+        display: flex;
+        margin: 0;
+    }
+    .tamanho1{
+        height: 350px;
+        width: 500px;
+    }
+    .BuTop{
+        padding-top: 100px;
+    }
+    .paco{
+        flex: 30%;
+    }
+    .paco1{
+        flex: 20%;
+        padding-top: 20px;
+    }
+    .te{
+        height: 300px;
+    }
+    .mar01{
+        margin-left: 20px;
+    }
+    .no{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5%;
+    }
+    .un01{
+        flex: 20%;
+        margin: 0 5px;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .un02{
+        flex: 20%;
+        margin: 0;
+    }
 }
